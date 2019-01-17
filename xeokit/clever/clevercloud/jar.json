@@ -1,5 +1,12 @@
 {
   "deploy": {
-    "jarName": "bimserverjar-1.5.117.jar"
+    "container": "TOMCAT8",
+    "war": [
+      {
+        "file": "bimserverwar-1.5.117.war",
+        "context": "/bimserver",
+        "checkMe": "/bimserver/ping"
+      }
+    ]
   }
 }
