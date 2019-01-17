@@ -1,6 +1,7 @@
 {
   "deploy": {
     "container": "TOMCAT8",
+
     "war": [
       {
         "file": "bimserverwar-1.5.117.war",
